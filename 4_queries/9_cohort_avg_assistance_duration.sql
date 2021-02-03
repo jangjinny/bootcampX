@@ -6,3 +6,4 @@ FROM (
   JOIN cohorts ON cohorts.id = students.cohort_id
   GROUP BY cohorts.name
 ) as total_duration;
+
